@@ -4,11 +4,6 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image, ImageOps
 
-import streamlit as st
-st.set_option('deprecation.showfileUploaderEncoding', False)
-st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_option('deprecation.showWarnings', False)
-
 # ---------------------------
 # Load the trained CNN model
 # ---------------------------
@@ -71,4 +66,5 @@ if uploaded_files:
         # Display in column
         with cols[i]:
             st.image(img, caption=f"{label} ({confidence:.2f})", use_column_width=True)
+
 
