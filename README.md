@@ -10,8 +10,8 @@ The model is integrated into a web application that allows users to upload an im
 📂 Project Structure
 fashion-mnist-cnn-app/
 │── models/
-│   └── cnn.keras          # Saved trained model
-│── train_cnn.py           # Script to train the CNN
-│── app.py                 # Web app (Streamlit or Flask/FastAPI)
-│── requirements.txt       # Python dependencies
-│── README.md              # Project documentation
+│   └── cnn.keras          # Saved trained model  /n
+│── train_cnn.py           # Script to train the CNN  /n
+│── app.py                 # Web app (Streamlit or Flask/FastAPI)  /n
+│── requirements.txt       # Python dependencies  /n
+│── README.md              # Project documentation  /n
